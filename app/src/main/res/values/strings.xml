@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+    <string name="accessibility_service_description">Allows App Locker to detect which app is open in the foreground so it can show a PIN screen for locked apps.</string>
+
+    <!-- Main screen -->
+    <string name="main_header">Choose which apps to lock</string>
+    <string name="main_sub_header">A 4-digit PIN will be required to open locked apps.</string>
+    <string name="lock_whatsapp">WhatsApp</string>
+    <string name="lock_instagram">Instagram</string>
+    <string name="lock_gallery">Gallery</string>
+    <string name="lock_chrome">Chrome</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="accessibility_enabled">Accessibility service: ON</string>
+    <string name="accessibility_disabled">Accessibility service: OFF (tap to enable)</string>
+    <string name="btn_enable_accessibility">Enable Accessibility Service</string>
+    <string name="pin_not_set_warning">Set a PIN before you can lock apps.</string>
+
+    <!-- PIN setup -->
+    <string name="setup_verify_old">Enter your current PIN</string>
+    <string name="setup_enter_new">Create a 4-digit PIN</string>
+    <string name="setup_confirm_new">Confirm your PIN</string>
+    <string name="pin_saved">PIN saved</string>
+    <string name="btn_next">Next</string>
+
+    <!-- PIN entry (lock screen) -->
+    <string name="pin_entry_title">Enter PIN to open %1$s</string>
+    <string name="btn_unlock">Unlock</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Errors -->
+    <string name="error_pin_length">PIN must be exactly 4 digits</string>
+    <string name="error_pin_wrong">Incorrect PIN, try again</string>
+    <string name="error_pin_mismatch">PINs do not match, try again</string>
+</resources>
